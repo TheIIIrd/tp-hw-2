@@ -1,11 +1,11 @@
-#include <iostream>
-#include <string>
+#include <iostream>   // Подключение библиотеки для ввода/вывода
+#include <string>     // Подключение библиотеки для работы со строками
 
 int main() {
-  std::string name;  
-  std::cin >> name;
+  std::string name;    // Объявление переменной типа string для хранения имени пользователя
+  std::cin >> name;    // Считывание имени пользователя с помощью стандартного ввода (клавиатуры)
 
-  std::cout<<"Hello world from " << name;
+  std::cout << "Hello world from " << name;   // Вывод приветственного сообщения с именем пользователя
 
-  return 0;
+  return 0;   // Возврат нуля, обозначающего успешное завершение программы
 }
